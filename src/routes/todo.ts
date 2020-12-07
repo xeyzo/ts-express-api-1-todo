@@ -11,4 +11,4 @@ router.post('/api/todo', (req, res) =>{
     return res.send('new todo created');
 });
 
-export { router as todoRouter};
+export { router as todoRouter };
